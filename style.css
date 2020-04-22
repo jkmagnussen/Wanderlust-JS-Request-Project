@@ -2,6 +2,10 @@
   padding: 10px;
 }
 
+.askJoe {
+  color: rgb(90, 162, 221);
+}
+
 main {
   margin: 0px auto 50px auto;
   text-align: center;
