@@ -63,6 +63,7 @@ footer {
   max-width: 900px;
   margin: auto;
   visibility: hidden;
+  margin-bottom: 200px;
 }
 
 .weather h2 {
@@ -166,6 +167,32 @@ footer {
   letter-spacing: 0.5px;
   text-align: center;
   color: #ffffff;
+}
+
+#starter {
+  margin: auto;
+  display: block;
+}
+#globe {
+  opacity: 0.5;
+  margin: auto;
+  display: block;
+}
+
+footer {
+  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+  display: inline;
+}
+
+.footerPic {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  width: 58px;
+  height: 58px;
+  text-align: center;
 }
 
 @media (max-width: 860px) {
