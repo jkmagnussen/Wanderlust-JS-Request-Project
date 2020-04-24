@@ -1,5 +1,12 @@
 // Helper functions
 
+/* 
+Outside the confinements of this assignment, i would prefer 
+to modulate the following code in a seperate file. in addition 
+to masking the API keys in a .evn 
+
+*/
+
 const createVenueHTML = (name, location, iconSource) => {
   return `<h2>${name}</h2>
     <img class="venueimage" src="${iconSource}"/>
